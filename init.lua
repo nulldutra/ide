@@ -8,6 +8,7 @@ vim.opt.shiftwidth = 4
 vim.opt.expandtab = true
 vim.opt.smartindent = true
 vim.opt.termguicolors = true
+vim.opt.guicursor = { 'a:ver25' }
 
 vim.keymap.set("n", "<C-n>", ":NERDTreeToggle<CR>")
 
