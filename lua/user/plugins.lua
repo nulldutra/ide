@@ -29,6 +29,9 @@ require("lazy").setup({
   { "williamboman/mason.nvim", build = ":MasonUpdate" },
   { "williamboman/mason-lspconfig.nvim" },
 
+  -- Rust
+  { "simrat39/rust-tools.nvim" },
+
   -- NerdTree
   { "preservim/nerdtree" },
 
